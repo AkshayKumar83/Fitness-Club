@@ -1,0 +1,96 @@
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    background:url('abs.jpg') ;
+    color:white;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    /* border:2px solid red; */
+}
+.left img{
+    width: 70px;
+    filter: invert(100%);
+}
+.left div{
+    line-height: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin:30px auto;
+    /* border:2px solid green; */
+}
+.right{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    display: inline-block;
+    /* border:2px solid blue; */
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+.navbar li a:hover,
+.navbar li a.active{
+   text-decoration: underline;
+   color: gray;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(66, 65, 65);
+}
+
+.container{
+    border: 2px solid rgb(168, 168, 164);
+    margin: 106px 80px;
+     padding: 75px;
+     width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
